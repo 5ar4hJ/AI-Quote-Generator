@@ -10,6 +10,7 @@
       rel="stylesheet"
     />
     <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://unpkg.com/axios@1.6.7/dist/axios.min.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Quote Generator</title>
   </head>
@@ -28,11 +29,17 @@
             autofocus
             required
             class="search-topic"
+            id="topic-input"
           />
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="quote" id="quote"></div>
+        <div class="quote" id="quote">
+          "Just like the growth of a tree requires enduring the pains of
+          pruning, our personal growth often comes with growing pains that shape
+          us into stronger individuals." <br />
+          <em>Unknown</em>
+        </div>
       </main>
 
       <footer>
