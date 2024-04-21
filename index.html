@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Ysabeau+Infant:ital,wght@0,1..1000;1,1..1000&display=swap"
       rel="stylesheet"
     />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
     <link rel="stylesheet" href="src/style.css" />
     <title>Quote Generator</title>
   </head>
@@ -19,21 +20,19 @@
       </header>
 
       <main>
-        <form action="">
+        <form id="quote-generator-form">
           <input
             type="text"
-            placeholder="Choose a topic"
+            placeholder="Enter a topic"
+            autocomplete="off"
+            autofocus
+            required
             class="search-topic"
           />
           <input type="submit" class="submit-button" />
         </form>
 
-        <div class="quote" id="quote">
-          Books give a soul to the universe, wings to the mind, flight to the
-          imagination, and life to everything📚
-          <br />
-          Plato
-        </div>
+        <div class="quote" id="quote"></div>
       </main>
 
       <footer>
