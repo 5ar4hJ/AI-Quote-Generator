@@ -19,7 +19,7 @@ function generateQuote(event) {
 
   let quoteElement = document.querySelector("#quote");
   quoteElement.classList.remove("hidden");
-  quoteElement.innerHTML = `<div class="spin">⌛</div> Generating quote...`;
+  quoteElement.innerHTML = `<div class="spin">⌛</div> Generating quote on ${topicInput.value}`;
 
   axios.get(apiUrl).then(displayQuote);
 }
