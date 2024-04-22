@@ -20,7 +20,7 @@ h1 {
 }
 
 .container {
-  background-image: url("Grow-med.jpg");
+  background-image: url("../Grow-med.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
