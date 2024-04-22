@@ -21,25 +21,23 @@
       </header>
 
       <main>
-        <form id="quote-generator-form">
-          <input
-            type="text"
-            placeholder="Enter a topic"
-            autocomplete="off"
-            autofocus
-            required
-            class="search-topic"
-            id="topic-input"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-
-        <div class="quote" id="quote">
-          "Just like the growth of a tree requires enduring the pains of
-          pruning, our personal growth often comes with growing pains that shape
-          us into stronger individuals." <br />
-          <em>Unknown</em>
+        <div class="form-container">
+          <form id="quote-generator-form">
+            <input
+              type="text"
+              placeholder="Enter a topic"
+              autocomplete="off"
+              autofocus
+              required
+              class="search-topic"
+              id="topic-input"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="hint">i.e Growth, Travel, or Stars</div>
         </div>
+
+        <div class="quote hidden" id="quote"></div>
       </main>
 
       <footer>
